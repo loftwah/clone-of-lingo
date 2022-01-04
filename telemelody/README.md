@@ -9,7 +9,7 @@
 
 ### 1.1 Lyric-to-Rhythm
 
-(1) Prepare lyric-to-rhythm dataset. (An example is available in directory `data/example`.)
+(1) Prepare lyric-to-rhythm dataset. We provide several examples in directory `data/en_example` and `data/zh_example`. Due to potential copyright issues, we cannot share the training data, but you can follow the pipeline mentioned in our [paper](https://arxiv.org/pdf/2109.09617.pdf) to get the training data.  
 
 (2) Train lyric-to-rhythm model.
 
@@ -82,7 +82,7 @@
    ```
 
    (3) Install `miditoolkit`.
-   
+
    ```shell
    pip uninstall miditoolkit
    python setup.py install
